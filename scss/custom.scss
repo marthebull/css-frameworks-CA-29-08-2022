@@ -1,1 +1,19 @@
+// Colors 
+$body-bg: #FFEFDC;
+$primary: #DE9300;
+$secondary: white;
+$border-style: none;
+$input-bg: white;
+$input-border-color: white;
+$font-family-base: Montserrat;
+$headings-font-family: Oswald;
+$display-font-weight: 600;
+
+
+
+@mixin gradient-y($start-color: $gray-700, $end-color: $gray-800, $start-percent: null, $end-percent: null) {
+    background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+  }
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
